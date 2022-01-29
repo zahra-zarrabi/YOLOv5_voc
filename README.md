@@ -1,9 +1,9 @@
 # YOLOv5_voc
-The YOLOv5 missile is a family of pre-trained objects and object recognition models on the COCO dataset.
+In this repository we want to train YOLOv5 on VOC dataset.
 
 <details open>
 <summary>Install</summary>
-Clone repo and install requirements.txt
+Clone the repo and install requirement packages
 
 ```
 git clone https://github.com/ultralytics/yolov5  # clone
@@ -37,10 +37,10 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 <details open>
 <summary>Training</summary>
 
-The commands below reproduce YOLOv5 VOC results. Models and datasets download automatically from the latest YOLOv5 release
+The below command reproduces YOLOv5 VOC results. Models and datasets download automatically from the latest YOLOv5 release
 
 ```
-python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 128
+python train.py --data VOC.yaml --cfg yolov5n.yaml --weights '' --batch-size 128
                                        yolov5s                                64
                                        yolov5m                                40
                                        yolov5l                                24
